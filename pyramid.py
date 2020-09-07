@@ -8,7 +8,6 @@ A pyramid of height 3 would look like:
 
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
-
 def print_pyramid(rows):
     """Print a pyramid of a given height
     :param int rows: total height

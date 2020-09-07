@@ -96,6 +96,4 @@ class SummableSequence(object):
 if __name__ == "__main__":
     print("f(100000)[-8:]", last_8(optimized_fibonacci(100000)))
     new_seq = SummableSequence(0, 1)
-    for n in range(0, 50, 5):
-        print(new_seq(n))
-    # print("new_seq(100000)[-8:]:", last_8(new_seq(10000)))
+    print("new_seq(100000)[-8:]:", last_8(new_seq(10000)))

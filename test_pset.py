@@ -125,7 +125,7 @@ class FibTests(TestCase):
 
     def test_summable4(self):
         ss = SummableSequence(0)
-        expected_list = [0]
+        expected_list = 0
         for n, expected in zip(range(5, 50, 5), [expected_list * i for i in range(5, 50, 5)]):
             with timeout(message="Timeout running f({})".format(n)):
                 self.assertEqual(expected, ss(n))

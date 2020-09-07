@@ -15,28 +15,30 @@ def print_pyramid(rows):
     """
     try:
         if rows == '1':
-            return '='
+            return "=\n"
         else:
             # number of "=" on the last row
             m = 2 * rows - 1
 
+            s = ''
             # Outer loop for number of rows
             for n in range(rows):
 
                 # inner loop for generating number of "-" to the LHS
                 for i in range(rows-n-1):
-                    print(end="-")
+                    s += "-"
 
                 # Inner loop for generating number of "="
                 for j in range(2 * n + 1):
-                    print("=", end="")
+                    s += "="
 
                 # inner loop for generating number of "-" to the RHS
                 for i in range(rows-n-1):
-                    print(end="-")
+                    s += "-"
 
                 # Print next one when finish printing each row
-                print("\r")
+                s += "\n"
+            return print(s)
     except:
         raise NotImplementedError("Called with rows={}".format(rows))
 

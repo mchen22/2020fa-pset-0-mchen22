@@ -20,7 +20,6 @@ def print_pyramid(rows):
             # number of "=" on the last row
             m = 2 * rows - 1
 
-
             # Outer loop for number of rows
             for n in range(rows):
 
@@ -50,6 +49,5 @@ if __name__ == "__main__":
         description=__doc__, formatter_class=RawDescriptionHelpFormatter
     )
     parser.add_argument("-r", "--rows", default=3, help="Number of rows")
-
     args = parser.parse_args()
     print_pyramid(args.rows)

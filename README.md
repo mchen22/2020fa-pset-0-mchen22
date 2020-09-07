@@ -5,11 +5,11 @@ assignment!
 
 Replace the below with your own build badges:
 
-[![Build Status](https://travis-ci.com/csci-e-29-dev/pset-0-starter.svg?token=aaaaa&branch=master)](https://travis-ci.com/csci-e-29-dev/pset-0-starter)
+[![Build Status](https://travis-ci.com/mchen22/2020fa-pset-0-mchen22.svg?branch=master)](https://travis-ci.com/mchen22/2020fa-pset-0-mchen22)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/aaaaa/maintainability)](https://codeclimate.com/repos/aaaaa/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/74e0cd4a4deaec327f6a/maintainability)](https://codeclimate.com/repos/5f5687a560bf5f61f2003be9/maintainability)
 
-[![Test Coverage](https://api.codeclimate.com/v1/badges/aaaaa/test_coverage)](https://codeclimate.com/repos/aaaaa/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/74e0cd4a4deaec327f6a/test_coverage)](https://codeclimate.com/repos/5f5687a560bf5f61f2003be9/test_coverage)
 
 ## Objectives
 
